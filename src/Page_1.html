@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Страница с заданием 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<form>
+<p class="line">Текстовое поле</p>
+<input type="text" />
+
+<p class="line">Многострочное поле ввода</p>
+<textarea placeholder="Напиши сюда свой вариант">
+</textarea>
+
+<p class="click">Чекбоксы</p>
+<input type="checkbox"/>Виски<Br>
+<input type="checkbox"/>Ром<Br>
+<input type="checkbox"/>Бурбон
+
+<p class="click">Радио-баттоны</p>
+<label>
+<input type="radio" name="food" value="rad1"> Торт<Br>
+</label>
+<label>
+<input type="radio" name="food" value="rad2"> Фрукты<Br>
+</label>
+<label>
+<input checked="checked" type="radio" name="food" value="rad3"> Орехи
+</label>
+
+<p class="list">Выпадающий список с множественным выбором</p>
+    <select size="2" multiple name="city">
+    <option disabled>Выберите город</option>
+    <option value="Новосибирск">Новосибирск</option>
+    <option value="Красноярск">Красноярск</option>
+    <option value="Томск">Томск</option>
+    <option value="Омск">Омск</option>
+    </select>
+
+<p class="list"> Выпадающий список с единичным выбором</p>
+<select>
+    <option>Твоё настроение</option>
+    <option>Отличное</option>
+    <option>Супер отличное</option>
+</select>
+
+<p class="shadow">Кнопка</p>
+    <button type="submit">Нажми на меня</button>
+</form>
+</body>
+</html>
