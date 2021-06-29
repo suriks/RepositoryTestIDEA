@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Страница с заданием 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<form action="handler.php" method="post">
+    <p class="line">Текстовое поле для ввода имени</p>
+    <input type="text" name="clientName"/>
+    <button type="submit">Отправить</button>
+</form>
+<form action="textarea1.php" method="post">
+    <p class="line">Многострочное поле ввода</p>
+    <textarea placeholder="Напиши сюда свой вариант" name="text">
+</textarea>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+<form action="input10.php">
+    <p class="click">Чекбоксы</p>
+    <input type="checkbox" name="drink"/>Виски<Br>
+    <input type="checkbox" name="drink"/>Ром<Br>
+    <input type="checkbox" name="drink"/>Бурбон
+</form>
+<form action="input10.php">
+    <p class="click">Радио-баттоны</p>
+    <label>
+        <input type="radio" name="food" value="rad1"> Торт<Br>
+    </label>
+    <label>
+        <input type="radio" name="food" value="rad2"> Фрукты<Br>
+    </label>
+    <label>
+        <input checked="checked" type="radio" name="food" value="rad3"> Орехи
+    </label>
+</form>
+<form action="select1.php" method="post">
+    <p class="list">Выпадающий список с множественным выбором</p>
+    <select size="2" multiple name="city">
+        <option disabled>Выберите город</option>
+        <option value="Новосибирск">Новосибирск</option>
+        <option value="Красноярск">Красноярск</option>
+        <option value="Томск">Томск</option>
+        <option value="Омск">Омск</option>
+    </select>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+<form action="select1.php" method="post">
+    <p class="list"> Выпадающий список с единичным выбором</p>
+    <select>
+        <option>Твоё настроение</option>
+        <option>Отличное</option>
+        <option>Супер отличное</option>
+    </select>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+<p class="shadow">Кнопка</p>
+<button type="submit">Нажми на меня</button>
+</body>
+</html>

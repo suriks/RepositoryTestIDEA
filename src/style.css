@@ -1,28 +1,36 @@
 .click {
  color: DarkViolet;
 }
+
 .line  {
  letter-spacing: 3px;
 }
+
 .list  {
  text-decoration: underline;
  text-shadow: 2px 2px 5px Aqua;
 }
+
 .shadow {
  text-shadow: 2px 2px Coral;
 }
+
 a:hover {
   color: hotpink;
 }
+
 #field-color {
 text-shadow: 2px 2px 5px FireBrick;
 }
+
 #decor {
 text-transform: capitalize;
 }
+
 .onlytab {
 border: 1px solid GreenYellow;
 }
+
 #font {
 font-family: "Brush Script MT", fantasy;
 color: Olive;
